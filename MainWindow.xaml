@@ -1,0 +1,115 @@
+﻿<Window x:Class="prak7_romanov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prak7_romanov"
+        mc:Ignorable="d"
+        Title="Окно приема пациентов" Height="700" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <!-- Watch 1 column-->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <!--Register form-->
+
+            <RowDefinition Height="100"/>
+            <!--Enter form-->
+
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <!--Info Form-->
+
+            <RowDefinition Height="50"/>
+            <!--Systemic state -->
+
+        </Grid.RowDefinitions>
+
+        <!--Register Form-->
+        <Border Margin="5" BorderThickness="2" BorderBrush="Black" 
+                Grid.RowSpan="2" Background="Bisque">
+            <StackPanel Margin="5">
+                <TextBox Text="{Binding Name}"
+                    Width="Auto" Height="Auto" ToolTip="Имя"/>
+                <TextBox Text="{Binding LastName}"
+                    Width="Auto" Height="Auto" ToolTip="Фамилия" Margin="0 5"/>
+                <TextBox Text="{Binding MiddleName}"
+                    Width="Auto" Height="Auto" ToolTip="Отчество" Margin="0 5"/>
+                <TextBox Text="{Binding Specialisation}"
+                    Width="Auto" Height="Auto" ToolTip="Специализация" Margin="0 5"/>
+
+                <PasswordBox 
+                             Width="Auto" Height="Auto" ToolTip="Пароль" Margin="0 5" />
+                <PasswordBox 
+                    Width="Auto" Height="Auto" ToolTip="Подтвердите пароль"   />
+                <Button Content="Загеристрироваться" Width="Auto"  Margin="0 10" />
+            </StackPanel>
+            
+        </Border>
+
+        <!--Enter Form-->
+        <Border Margin="5" BorderThickness="2" BorderBrush="Black" Background="Beige" Grid.Row="2">
+            <StackPanel Margin="5">
+                <TextBox Width="Auto" Height="Auto" ToolTip="Логин" />
+                <PasswordBox Width="Auto" Height="Auto" ToolTip="Пароль" Margin="0 5"/>
+                <Button Content="Войти" Width="Auto" Margin="0 10"/>
+            </StackPanel>
+        </Border>
+
+        <!--Info Form-->
+        <Border Margin="5" BorderThickness="2" BorderBrush="Black" Grid.RowSpan="3" Background="Bisque" Grid.Row="3">
+            <StackPanel Margin="5">
+                <TextBlock Text="Идентефекатор"/>
+                <TextBlock Text="{Binding ID}"/>
+            </StackPanel>
+        </Border>
+
+        <!--Systemic Form-->
+        <Border Margin="2" BorderThickness="2" BorderBrush="Black" Background="Firebrick" Grid.ColumnSpan="3" Grid.Row="6">
+               
+        </Border>
+
+        <!--Finder Form-->
+        <Border Margin="5" BorderThickness="2" BorderBrush="Black" Grid.Column="1" Background="Bisque">
+            <StackPanel Margin="5">
+                <TextBox ToolTip="Введите id пациента" />
+                <Button Content="Искать" Width="Auto"  Margin="0 10"/>
+            </StackPanel>
+        </Border>
+
+        <!--Reception Form-->
+        <Border Margin="5" BorderThickness="2" BorderBrush="Black" Grid.RowSpan="5" Grid.Column="1" Grid.Row="1" Background="Bisque">
+            <TextBlock/>
+        </Border>
+
+
+        <!--Form Add-->
+        <Border Margin="5" BorderThickness="2" BorderBrush="Black" Grid.RowSpan="3" Grid.Column="2" Grid.Row="0" Background="Bisque">
+            <StackPanel Margin="5">
+                <TextBox Width="Auto" Height="Auto" ToolTip="Имя" />
+                <TextBox Width="Auto" Height="Auto" ToolTip="Фамилия" Margin="0 5"/>
+                <TextBox Width="Auto" Height="Auto" ToolTip="Отчество" Margin="0 5"/>
+                <DatePicker Width="Auto" Height="Auto" ToolTip="Дата рождения" Margin="0 5"/>
+                <DatePicker Width="Auto" Height="Auto" ToolTip="Дата последнего посещения" Margin="0 5"/>
+                <TextBox Width="Auto" Height="Auto" ToolTip="ID последнего посещенного доктора" Margin="0 5"/>
+                <TextBox Width="Auto" Height="Auto" ToolTip="Заболевание" Margin="0 5"/>
+                <TextBox Width="Auto" Height="Auto" ToolTip="Рекомендации к лечению" Margin="0 5"/>
+                <Button Content="Подтвердить" Width="Auto"  Margin="0 10"/>
+            </StackPanel>
+        </Border>
+
+
+        <!--Editing Form-->
+        <Border Margin="5" BorderThickness="2" BorderBrush="Black" Grid.RowSpan="3" Grid.Column="2" Grid.Row="3" Background="Firebrick">
+            
+        </Border>
+
+
+    </Grid>
+</Window>
