@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\",
+  "WorkspaceRootPath": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\st310-08\\documents\\romanov\\prak7_romanov\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\st310-08\\documents\\romanov\\prak7_romanov\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\st310-08\\documents\\romanov\\prak7_romanov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,69 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Statistics.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Statistics.cs",
+              "RelativeDocumentMoniker": "Statistics.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Statistics.cs",
+              "RelativeToolTip": "Statistics.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:29:15.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MainViewModel.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\MainViewModel.cs",
+              "RelativeToolTip": "MainViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAtwDQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T17:49:37.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pacient.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pacient.cs",
+              "RelativeDocumentMoniker": "Pacient.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pacient.cs",
+              "RelativeToolTip": "Pacient.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:59:10.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Doctor.cs",
+              "RelativeDocumentMoniker": "Doctor.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Doctor.cs",
+              "RelativeToolTip": "Doctor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAEwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:46:34.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\MainWindow.xaml*",
-              "RelativeToolTip": "MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-09T03:23:16.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAASwGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T03:23:14.273Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "72c7b2f3-7d84-4b47-bbfd-fc1c2c4aa18c",
-        "Display": 0,
-        "X": 2116,
-        "Y": 1137,
-        "Width": 1496,
-        "Height": 1098,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\Doctor.cs",
-              "RelativeDocumentMoniker": "Doctor.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\Doctor.cs*",
-              "RelativeToolTip": "Doctor.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T05:28:59.848Z",
               "EditorCaption": ""
             }
           ]

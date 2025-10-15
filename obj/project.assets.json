@@ -8,24 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\st310-08\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\artur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\prak7_romanov.csproj",
+      "projectUniqueName": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\prak7_romanov.csproj",
       "projectName": "prak7_romanov",
-      "projectPath": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\prak7_romanov.csproj",
-      "packagesPath": "C:\\Users\\st310-08\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\st310-08\\Documents\\Romanov\\prak7_romanov\\obj\\",
+      "projectPath": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\prak7_romanov.csproj",
+      "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\st310-08\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\artur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -76,7 +71,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
