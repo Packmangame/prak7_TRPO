@@ -1,0 +1,46 @@
+﻿<Page x:Class="prak7_romanov.Pages.RegisterScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:prak7_romanov.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegisterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="5" Grid.Column="1">
+            <TextBox Text="{Binding CurrentDoctor.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+      Width="Auto" Height="Auto" ToolTip="Имя" />
+            <TextBox Text="{Binding CurrentDoctor.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+      Width="Auto" Height="Auto" ToolTip="Фамилия" Margin="0 10 0 5"/>
+            <TextBox Text="{Binding CurrentDoctor.MiddleName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+      Width="Auto" Height="Auto" ToolTip="Отчество" Margin="0 5"/>
+            <TextBox Text="{Binding CurrentDoctor.Specialisation, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+      Width="Auto" Height="Auto" ToolTip="Специализация" Margin="0 5"/>
+
+            <PasswordBox Name="Password1"
+                  Width="Auto" Height="Auto" ToolTip="Пароль" Margin="0 5"/>
+            <PasswordBox Name="Password2"
+      Width="Auto" Height="Auto" ToolTip="Подтвердите пароль" Margin="0 5 0 0"/>
+            <Button Content="Загеристрироваться" Width="Auto"  Margin="0 10" Click="Register_Click"/>
+        </StackPanel>
+
+        <StackPanel Margin="5">
+            <Label Content="Имя" Width="auto"/>
+            <Label Content="Фамилия" Width="auto"/>
+            <Label Content="Отчество" Width="auto"/>
+            <Label Content="Специализация" Width="auto"/>
+            <Label Content="Пароль" Width="auto"/>
+            <Label Content="Подтвердите пароль" Width="auto"/>
+        </StackPanel>
+    </Grid>
+</Page>

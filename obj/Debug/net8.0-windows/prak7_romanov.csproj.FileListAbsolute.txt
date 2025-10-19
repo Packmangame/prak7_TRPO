@@ -20,7 +20,6 @@ C:\Users\st310-08\Documents\Romanov\prak7_romanov\obj\Debug\net8.0-windows\prak7
 C:\Users\st310-08\Documents\Romanov\prak7_romanov\obj\Debug\net8.0-windows\ref\prak7_romanov.dll
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\prak7_romanov_MarkupCompile.cache
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\prak7_romanov_MarkupCompile.lref
 C:\Users\artur\Desktop\prak7_TRPO\bin\Debug\net8.0-windows\prak7_romanov.exe
@@ -40,3 +39,12 @@ C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\refint\prak7_romanov.
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\prak7_romanov.pdb
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\prak7_romanov.genruntimeconfig.cache
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\ref\prak7_romanov.dll
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\RegisterScreen.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\MainPage.baml
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\RegisterScreen.baml
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\LoginScreen.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\LoginScreen.baml
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\PolzScreen.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\PolzScreen.baml
