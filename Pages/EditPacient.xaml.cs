@@ -28,7 +28,7 @@ namespace prak7_romanov.Pages
         public EditPacient(MainViewModel mainViewModel)
         {
             InitializeComponent();
-            viewModel = new MainViewModel();
+            viewModel = mainViewModel;
             this.DataContext = viewModel;
         }
 
@@ -80,14 +80,10 @@ namespace prak7_romanov.Pages
             }
         }
 
-        //Создать приемы!!!
+        
         private void EditAppointment_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is Button button && button.Tag is PacientStory appointment)
-            {
-                
-                MessageBox.Show("Редактирование приема");
-            }
+            NavigationService?.Navigate(new Pages.PriemScreen(viewModel));
         }
     }
 }

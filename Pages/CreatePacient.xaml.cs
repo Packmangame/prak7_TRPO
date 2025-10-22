@@ -81,6 +81,7 @@ namespace prak7_romanov.Pages
             viewModel.Patients.Add(viewModel.CurrentPacient);
 
             MessageBox.Show($"Пациент добавлен! ID: {viewModel.CurrentPacient.Id}");
+            NavigationService?.GoBack();
         }
     }
 }

@@ -43,23 +43,19 @@ namespace prak7_romanov.Pages
             {
                 
                 viewModel.CurrentPacientStory.DoctorId = viewModel.CurrentDoctor.Id;
-                if (string.IsNullOrEmpty(viewModel.CurrentPacientStory.Date))
-                {
-                    viewModel.CurrentPacientStory.Date = DateTime.Now.ToString("dd.MM.yyyy");
-                }
-
-                // Добавляем прием в историю
+                               
                 viewModel.SelectedPacient.PacientStories.Add(viewModel.CurrentPacientStory);
 
-                // Сохраняем пациента
+                
                 string json = JsonSerializer.Serialize(viewModel.SelectedPacient);
                 string filePath = System.IO.Path.Combine(folderPath, $"P_{viewModel.SelectedPacient.Id:D7}.json");
                 File.WriteAllText(filePath, json);
 
                 MessageBox.Show("Прием сохранен!");
 
-                // Создаем новый объект для следующего приема
+                
                 viewModel.CurrentPacientStory = new PacientStory();
+                NavigationService?.GoBack();
             }
             else
             {

@@ -78,7 +78,7 @@
                                                 TextWrapping="Wrap" Margin="5,0"/>
                                         <Button Grid.Column="3" Content="✏️" Padding="5,2" Margin="5,0"
                                             Click="EditAppointment_Click"
-                                            Tag="{Binding}"/>
+                                            />
                                     </Grid>
                                 </Border>
                             </DataTemplate>

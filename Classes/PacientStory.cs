@@ -10,16 +10,16 @@ namespace prak7_romanov.Classes
 {
     public class PacientStory:INotifyPropertyChanged
     {
-        string _date;
+        string _date = "12.12.12";
         long _doctorId;
-        string _diagnosis;
-        string _recommendations;
+        string _diagnosis = "ОРВИ";
+        string _recommendations = "Обильное питье и сон";
 
         public string Date
         {
             get => _date;
             set { _date = value; OnPropertyChanged(); }
-        }
+        } 
 
         public long DoctorId
         {

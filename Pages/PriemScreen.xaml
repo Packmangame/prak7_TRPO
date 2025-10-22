@@ -42,13 +42,13 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Grid.Row="0" Grid.Column="0" Text="Дата приема:" Margin="5" VerticalAlignment="Center"/>
-                    <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding CurrentAppointment.Date}" Margin="5" Padding="2"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding CurrentPacientStory.Date,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="5" Padding="2"/>
 
                     <TextBlock Grid.Row="1" Grid.Column="0" Text="Диагноз:" Margin="5" VerticalAlignment="Center"/>
-                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding CurrentAppointment.Diagnosis}" Margin="5" Padding="2"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding CurrentPacientStory.Diagnosis,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="5" Padding="2"/>
 
                     <TextBlock Grid.Row="2" Grid.Column="0" Text="Рекомендации:" Margin="5" VerticalAlignment="Top"/>
-                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding CurrentAppointment.Recommendations}" 
+                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding CurrentPacientStory.Recommendations,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
                                 Margin="5" Padding="2" Height="60" TextWrapping="Wrap" AcceptsReturn="True"/>
                 </Grid>
                 
