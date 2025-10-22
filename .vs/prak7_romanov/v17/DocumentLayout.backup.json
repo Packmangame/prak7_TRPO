@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\loginscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\loginscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\polzscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\polzscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\polzscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\polzscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\loginscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\loginscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\polzscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\polzscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\loginscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\loginscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\priemscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\priemscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\pages\\editpacient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:pages\\editpacient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|c:\\users\\artur\\desktop\\prak7_trpo\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1A03BA52-20FD-4F55-8385-8EF78D8D209E}|prak7_romanov.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -52,28 +64,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\MainPage.xaml.cs",
               "RelativeToolTip": "Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAA1wDMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T12:47:42.495Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "Pages\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-19T12:46:20.415Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -82,49 +81,89 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginScreen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\LoginScreen.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\LoginScreen.xaml.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\LoginScreen.xaml.cs",
-              "RelativeToolTip": "Pages\\LoginScreen.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDYAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T15:43:28.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "PolzScreen.xaml.cs",
               "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\PolzScreen.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\PolzScreen.xaml.cs",
               "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\PolzScreen.xaml.cs",
               "RelativeToolTip": "Pages\\PolzScreen.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T15:35:20.251Z",
+              "WhenOpened": "2025-10-22T15:54:03.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T15:48:49.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\LoginScreen.xaml",
+              "RelativeDocumentMoniker": "Pages\\LoginScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\LoginScreen.xaml",
+              "RelativeToolTip": "Pages\\LoginScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T15:17:50.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\LoginScreen.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\LoginScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\LoginScreen.xaml.cs",
+              "RelativeToolTip": "Pages\\LoginScreen.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwDIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:17:12.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PriemScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\PriemScreen.xaml",
+              "RelativeDocumentMoniker": "Pages\\PriemScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\PriemScreen.xaml",
+              "RelativeToolTip": "Pages\\PriemScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T15:15:50.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditPacient.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\EditPacient.xaml",
+              "RelativeDocumentMoniker": "Pages\\EditPacient.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\EditPacient.xaml",
+              "RelativeToolTip": "Pages\\EditPacient.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T15:11:14.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PolzScreen.xaml",
               "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\PolzScreen.xaml",
               "RelativeDocumentMoniker": "Pages\\PolzScreen.xaml",
               "ToolTip": "C:\\Users\\artur\\Desktop\\prak7_TRPO\\Pages\\PolzScreen.xaml",
               "RelativeToolTip": "Pages\\PolzScreen.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-19T15:01:07.472Z",
+              "WhenOpened": "2025-10-22T15:10:54.761Z",
               "EditorCaption": ""
             }
           ]

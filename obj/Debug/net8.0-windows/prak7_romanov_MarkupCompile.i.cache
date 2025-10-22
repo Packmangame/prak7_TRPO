@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\artur\Desktop\prak7_TRPO\App.xaml
-5-683918385
+8-664409349
 
-141743069947
+18-1509074649
 198-1127337667
-MainWindow.xaml;Pages\LoginScreen.xaml;Pages\MainPage.xaml;Pages\PolzScreen.xaml;Pages\RegisterScreen.xaml;
+MainWindow.xaml;Pages\CreatePacient.xaml;Pages\EditPacient.xaml;Pages\LoginScreen.xaml;Pages\MainPage.xaml;Pages\PolzScreen.xaml;Pages\PriemScreen.xaml;Pages\RegisterScreen.xaml;
 
-True
+False
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -15,12 +16,13 @@ namespace prak7_romanov.Classes
         string _lastName;
         string _middleName;
         string _birthday;
-        string _lastAppointment;
-        long _idLastDoctor;
-        string _diagnosis;
-        string _recommendations;
+        string _phoneNumber;
+        private ObservableCollection<PacientStory> _pacientStories;
 
-
+        public Pacient()
+        {
+            _pacientStories = new ObservableCollection<PacientStory>();
+        }
         public long Id
         {
             get => _id;
@@ -51,30 +53,17 @@ namespace prak7_romanov.Classes
             set { _birthday = value; OnPropertyChanged(); }
         }
 
-        public string LastAppointment
+        public string PhoneNumber
         {
-            get => _lastAppointment;
-            set { _lastAppointment = value; OnPropertyChanged(); }
+            get => _phoneNumber;
+            set { _phoneNumber = value; OnPropertyChanged(); }
         }
 
-        public long IdLastDoctor
+        public ObservableCollection<PacientStory> PacientStories
         {
-            get => _idLastDoctor;
-            set { _idLastDoctor = value; OnPropertyChanged(); }
+            get => _pacientStories;
+            set { _pacientStories = value; OnPropertyChanged(); }
         }
-
-        public string Diagnosis
-        {
-            get => _diagnosis;
-            set { _diagnosis = value; OnPropertyChanged(); }
-        }
-
-        public string Recommendations
-        {
-            get => _recommendations;
-            set { _recommendations = value; OnPropertyChanged(); }
-        }
-
 
 
         public event PropertyChangedEventHandler? PropertyChanged;

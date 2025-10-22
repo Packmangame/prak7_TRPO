@@ -66,7 +66,7 @@
         <Border Margin="5" BorderThickness="2" BorderBrush="Black" Background="Bisque" Grid.Row="2">
             <StackPanel Margin="5">
                 <TextBox Text="{Binding LoginId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="Auto" Height="Auto" ToolTip="Логин" />
-                <TextBox Text="{Binding LoginPassword, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="Auto" Height="Auto" ToolTip="Пароль" Margin="0 5"/>
+                <TextBox Text="{Binding Log             inPassword, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="Auto" Height="Auto" ToolTip="Пароль" Margin="0 5"/>
                 <Button Content="Войти" Width="Auto" Margin="0 10" Click="Login_Click"/>
             </StackPanel>
         </Border>
@@ -116,8 +116,6 @@
                     <TextBlock Text="Информация о пациенте:" FontWeight="Bold"/>
                     <TextBlock Text="{Binding CurrentPacient.Name}" Margin="0,5"/>
                     <TextBlock Text="{Binding CurrentPacient.LastName}"/>
-                    <TextBlock Text="{Binding CurrentPacient.Diagnosis}"/>
-                    <TextBlock Text="{Binding CurrentPacient.Recommendations}"/>
                 </StackPanel>
             </ScrollViewer>
         </Border>
@@ -131,10 +129,6 @@
                     <TextBox Text="{Binding CurrentPacient.LastName, Mode=TwoWay}" Width="Auto" Height="Auto" ToolTip="Фамилия" Margin="0 5"/>
                     <TextBox Text="{Binding CurrentPacient.MiddleName, Mode=TwoWay}" Width="Auto" Height="Auto" ToolTip="Отчество" Margin="0 5"/>
                     <TextBox Text="{Binding CurrentPacient.Birthday, Mode=TwoWay}" Width="Auto" Height="Auto" ToolTip="Дата рождения" Margin="0 5"/>
-                    <TextBox Text="{Binding CurrentPacient.LastAppointment, Mode=TwoWay}" Width="Auto" Height="Auto" ToolTip="Дата последнего посещения" Margin="0 5"/>
-                    <TextBox Text="{Binding CurrentPacient.IdLastDoctor, Mode=TwoWay}" Width="Auto" Height="Auto" ToolTip="ID доктора" Margin="0 5"/>
-                    <TextBox Text="{Binding CurrentPacient.Diagnosis, Mode=TwoWay}" Width="Auto" Height="Auto" ToolTip="Заболевание" Margin="0 5"/>
-                    <TextBox Text="{Binding CurrentPacient.Recommendations, Mode=TwoWay}" Width="Auto" Height="Auto" ToolTip="Рекомендации" Margin="0 5"/>
                     <Button Content="Добавить" Width="Auto" Margin="0 10" Click="AddPacient_Click"/>
                 </StackPanel>
             </ScrollViewer>
@@ -146,8 +140,6 @@
             <ScrollViewer>
                 <StackPanel Margin="5">
                     <TextBlock Text="Редактирование пациента" FontWeight="Bold"/>
-                    <TextBox Text="{Binding CurrentPacient.Diagnosis, Mode=TwoWay}" ToolTip="Диагноз" Margin="0,5"/>
-                    <TextBox Height="150" TextWrapping="Wrap" Text="{Binding CurrentPacient.Recommendations, Mode=TwoWay}" ToolTip="Рекомендации" Margin="0,5"/>
                     <Button Content="Сохранить изменения" Click="SavePacient_Click" Margin="0,10"/>
                     <Button Content="Сбросить" Click="ResetPacient_Click"/>
                 </StackPanel>

@@ -48,3 +48,9 @@ C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\LoginScreen.g.c
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\LoginScreen.baml
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\PolzScreen.g.cs
 C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\PolzScreen.baml
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\CreatePacient.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\EditPacient.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\PriemScreen.g.cs
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\CreatePacient.baml
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\EditPacient.baml
+C:\Users\artur\Desktop\prak7_TRPO\obj\Debug\net8.0-windows\Pages\PriemScreen.baml

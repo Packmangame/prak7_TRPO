@@ -8,6 +8,6 @@
         Title="Окно приема пациентов" Height="700" Width="900">
 
     <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Visible"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

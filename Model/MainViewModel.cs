@@ -1,6 +1,7 @@
 ﻿using prak7_romanov.Classes;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -14,6 +15,8 @@ namespace prak7_romanov.Model
         Doctor _currentDoctor;
         Statistics _statistics;
         Pacient _currentPacient;
+        Pacient _selectedPacient;
+        PacientStory _currrntPacientStory;
         string _loginId;
         string _loginPassword;
         string _searchPacientId;
@@ -37,11 +40,27 @@ namespace prak7_romanov.Model
             set { _currentPacient = value; OnPropertyChanged(); }
         }
 
+        public Pacient SelectedPacient
+        {
+            get => _selectedPacient;
+            set { _selectedPacient = value; OnPropertyChanged(); }
+        }
+
+        public PacientStory CurrentPacientStory
+        {
+            get => _currrntPacientStory;
+            set {_currrntPacientStory=value; OnPropertyChanged();}    
+            
+        }
+
+        public ObservableCollection<Pacient> Patients { get; set; } = new ObservableCollection<Pacient>();
+
         public string LoginId
         {
             get => _loginId;
             set { _loginId = value; OnPropertyChanged(); }
         }
+        
 
         public string LoginPassword
         {
@@ -54,12 +73,12 @@ namespace prak7_romanov.Model
             get => _searchPacientId;
             set { _searchPacientId = value; OnPropertyChanged(); }
         }
-
         public MainViewModel()
         {
             CurrentDoctor = new Doctor();
             Statistics = new Statistics();
             CurrentPacient = new Pacient();
+            CurrentPacientStory = new PacientStory();
             Statistics.StatisticsUpdate();
         }
 

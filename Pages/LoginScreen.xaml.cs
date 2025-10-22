@@ -52,7 +52,7 @@ namespace prak7_romanov.Pages
                     {
                         viewModel.CurrentDoctor = doctor;
                         MessageBox.Show($"Добро пожаловать, {doctor.Name} {doctor.LastName} {doctor.MiddleName}!");
-                        NavigationService?.Navigate(new Pages.PolzScreen(doctorId));
+                        NavigationService?.Navigate(new Pages.PolzScreen(viewModel));
                     }
                     else
                     {
